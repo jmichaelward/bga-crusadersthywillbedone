@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7679131fca6753801927c649843c064a",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "nickpeirson/bga-stubs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nickpeirson/BGAStubs.git",
+                "reference": "48a0137f8ec0fcdde571915f505eff58f79784d7"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "v3.0.0-rc"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NickPeirson\\BGAStubs\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Nick Peirson",
+                    "email": "nickpeirson@gmail.com"
+                }
+            ],
+            "description": "Stubbed classes for BGA Studio code completion",
+            "time": "2020-06-08T17:58:14+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "nickpeirson/bga-stubs": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

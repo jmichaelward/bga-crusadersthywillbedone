@@ -1,0 +1,19 @@
+{
+    "name": "jmichaelward/crusadersthywillbedone",
+    "description": "Digital implementation of Crusaders: Thy Will Be Done by Seth Jaffee, developed for Board Game Arena.",
+    "authors": [
+        {
+            "name": "Jeremy Ward",
+            "email": "jeremy@jmichaelward.com"
+        }
+    ],
+    "repositories": {
+	"nickpeirson/bga-stubs": {
+	  "type": "git",
+	  "url": "https://github.com/nickpeirson/BGAStubs.git"
+	}
+  },
+    "require-dev": {
+        "nickpeirson/bga-stubs": "dev-master@dev"
+    }
+}
